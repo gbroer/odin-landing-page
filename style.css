@@ -100,3 +100,44 @@ main {
 .hero-image {
     object-fit: cover;
 }
+
+.information {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.info-wrapper {
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-image-wrapper {
+    display: flex;
+    gap: 2em;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 48px 0;
+}
+
+.img-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 175px;
+    text-align: center;
+    gap: .3em;
+    color: #575757;
+}
+
+.img-wrapper > img {
+    max-width: 175px;
+    border:5px solid #3882F6;
+    border-radius: 10px;
+}
