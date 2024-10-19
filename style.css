@@ -112,6 +112,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 96px;
 }
 
 .info-image-wrapper {
@@ -140,4 +141,34 @@ main {
     max-width: 175px;
     border:5px solid #3882F6;
     border-radius: 10px;
+}
+
+.quote {
+    width: 100%;
+    background-color: #e5e7e5;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-wrapper {
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    padding: 96px 150px;
+    gap: 1em;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-source {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1F2937;
+    padding-right: 25px;
 }
